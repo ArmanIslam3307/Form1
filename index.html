@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class-14</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Form Design -->
+     <div id="container">
+        <div class="close">
+            <p><a href="#">X</a></p>
+        </div>
+        <h4>Contact Us</h4>
+         <form action="#">
+            <div class="name_sec sec">
+                <label for="name">Your Name<span>*</span></label>
+                <div class="nameInput">
+                    <input type="text" name="fName" id="name" placeholder="First Name" required>
+                    <input type="text" placeholder="Last Name" required>
+                </div>
+            </div>
+
+            <div class="email_sec sec">
+                <label for="email">Email Address<span>*</span> </label>
+                <br>
+                <input class="fullWidth" name="email" id="email" required placeholder="Eg. example@gmail.com">
+            </div>
+
+            <div class="phn_sec sec">
+                <label for="phn">Phone Number</label>
+                <br>
+                <input class="fullWidth" type="tel" name="phn" id="phn" placeholder="Eg. +1 800 0000000">
+            </div>
+             
+            <div class="msg_sec sec">
+                <label for="msg">Massage<span>*</span></label>
+                <br>
+                <textarea class="fullWidth" name="msg" id="msg" required placeholder="Please enter Your Comment.."></textarea>
+            </div>
+            <div class="btn">
+                <input type="submit" value="Submit &#8594;">
+            </div>
+         </form>
+
+         <script src="./main.js"></script>
+ </div>
+</body>
+</html>
